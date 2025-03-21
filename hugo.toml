@@ -49,7 +49,7 @@ defaultContentLanguage = 'en'
   mono_font       = "Fira Code" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "© :YEAR: Discovery Data Lab. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
         # version = true # includes git commit info
 
     [params.social]
@@ -59,7 +59,7 @@ defaultContentLanguage = 'en'
         # rss = true                    # show rss icon with link
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs Example Site"           # default html title for documentation pages/sections
+        title           = "PYMOCD"           # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
@@ -73,7 +73,7 @@ defaultContentLanguage = 'en'
 
         # gitinfo
         repoURL         = "https://github.com/oliveira-sh/pymocd"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
-        repoBranch      = "main"
+        repoBranch      = "hugo"
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
         lastModRelative = true                                # format 'Last modified' time as relative - default true
@@ -152,12 +152,6 @@ defaultContentLanguage = 'en'
     url = "docs/"
     identifier = "docs"
     weight = 10
-
-# [[menu.primary]]
-#     name  = "Showcase"
-#     url = "/showcase"
-#     identifier = "showcase"
-#     weight = 20
 
 [[menu.primary]]
      name  = "Contribute"
