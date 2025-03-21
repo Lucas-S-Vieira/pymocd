@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "pymocd/"
 languageCode = "en-GB"
 contentDir = "content"
 enableEmoji = true
