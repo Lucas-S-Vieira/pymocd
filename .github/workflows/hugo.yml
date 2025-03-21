@@ -51,7 +51,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          cd website
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
@@ -64,6 +66,7 @@ jobs:
       - name: Build with Hugo
         run: |
           hugo \
+            --source website \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
@@ -78,7 +81,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: website/public
 
   # Deployment job
   deploy:
