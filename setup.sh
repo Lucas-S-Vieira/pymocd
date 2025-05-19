@@ -30,3 +30,6 @@ pip install \
 maturin develop --release
 
 echo "[OK] Setup complete"
+
+echo "[Running the experiment for mu]"
+python3 python/pymocd/test.py > experiment.out
