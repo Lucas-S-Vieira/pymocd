@@ -397,7 +397,7 @@ if __name__ == "__main__":
 
 
     # Run experiments
-    results = read_results_from_csv('community_detection_results.csv')
+    #results = read_results_from_csv('community_detection_results.csv')
     results = run_experiment(mus=np.arange(min_mu, max_mu + 0.1, 0.1), n_runs=2)
     #results = run_nodes_experiment(n_runs=20)
 
