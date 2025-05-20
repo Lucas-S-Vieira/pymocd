@@ -27,7 +27,9 @@ pip install \
     leidenalg \
     pymoo \
 
-maturin develop --release
+
+pip uninstall pymocd    # remove if maturin do something   
+pip install pymocd      # get from pypi
 
 echo "[OK] Setup complete"
 
