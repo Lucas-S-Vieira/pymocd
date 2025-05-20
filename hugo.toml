@@ -61,7 +61,7 @@ defaultContentLanguage = 'en'
     [params.docs] # Parameters for the /docs 'template'
         title           = "PYMOCD"           # default html title for documentation pages/sections
 
-        # pathName        = "docs"                            # path name for documentation site | default "docs"
+        pathName        = "docs"                            # path name for documentation site | default "docs"
 
         # themeColor      = "cyan"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
 
@@ -106,7 +106,7 @@ defaultContentLanguage = 'en'
         enabled             = true
         # tokenize            = "full"
         # optimize            = true
-        # cache               = 100
+        # cache               = 100a
         # minQueryChar        = 3 # default is 0 (disabled)
         # maxResult           = 5 # default is 5
         # searchSectionsIndex = []
@@ -150,7 +150,7 @@ defaultContentLanguage = 'en'
 [[menu.primary]]
     name  = "Docs"
     url = "docs/"
-    identifier = "docs"
+    identifier = "docs/"
     weight = 10
 
 [[menu.primary]]
