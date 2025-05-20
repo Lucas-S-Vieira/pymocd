@@ -13,7 +13,7 @@ hero:
       mobile: "gradient-mobile.webp"
 
   badge:
-    text: v0.0.1
+    text: v0.2.0
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
@@ -60,21 +60,21 @@ featureGrid:
       description: Tired of waiting days for your algorithms to run? Our multiobjective community detection algorithms are fully parallelized, ensuring rapid execution with just a standard CPU.
       ctaLink:
         text: Learn More
-        url: /docs/
+        url: docs/
 
     - title: User-Friendly
       icon: terminal
       description: Built for Python enthusiasts, our library integrates seamlessly with your workflow. Get started quickly without a steep learning curve.
       ctaLink:
         text: Learn More
-        url: /docs/
+        url: docs/
 
     - title: Highly Configurable
       icon: settings
       description: Tailor your analysis with a variety of optional parameters. Fine-tune algorithm features to meet your specific research or project needs.
       ctaLink:
         text: Learn More
-        url: /docs/
+        url: docs/
 
 
 # Image Compare
@@ -98,6 +98,36 @@ imageCompare:
           onHover: false
         }
       }
-      imagePath: "images/screenshots"
+      imagePath: "images/landing"
       imageBefore: "ddl1.png"
       imageAfter: "ddl2.png"
+    - title: CDlib
+      config: {
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: '',
+          after: '',
+          onHover: false
+        }
+      }
+      imagePath: "images/landing"
+      imageBefore: "cdlib1.png"
+      imageAfter: "cdlib2.png"
+    - title: NetworkX
+      config: {
+        startingPoint: 55,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: '',
+          after: '',
+          onHover: false
+        }
+      }
+      imagePath: "images/landing"
+      imageBefore: "nx1.png"
+      imageAfter: "nx2.png"
