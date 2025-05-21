@@ -20,6 +20,7 @@
 - Easy-to-use Python API;
 
 ## Getting started
+You can easily install it at your python enviroment:
 
 ```
 $ pip install pymocd
