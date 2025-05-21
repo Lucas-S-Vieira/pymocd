@@ -20,11 +20,15 @@
 - Easy-to-use Python API;
 
 ## Getting started
+### How to install
 You can easily install it at your python enviroment:
 
 ```
 $ pip install pymocd
 ```
+
+### 
+
 
 ## Contributing  
 
