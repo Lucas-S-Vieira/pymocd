@@ -19,9 +19,11 @@
 - Scalable to large graphs;
 - Easy-to-use Python API;
 
-## Instalation
+## Getting started
 
-## How To Use
+```
+$ pip install pymocd
+```
 
 ## Contributing  
 
