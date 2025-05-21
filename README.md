@@ -16,12 +16,12 @@
 ## Features  
 - High-performance Rust backend;  
 - Multi-objective optimization;  
-- Scalable to large graphs  
-- Easy-to-use Python API
+- Scalable to large graphs;
+- Easy-to-use Python API;
 
 ## Instalation
 
-##
+## How To Use
 
 ## Contributing  
 
